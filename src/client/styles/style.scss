@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+   
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .container{
+     width: 400px;
+     padding: 5px;
+     border: 2px solid rgb(54, 52, 52);
+     border-radius: 5px;
+    .input-field{
+        padding: 5px;
+        margin: 5px;
+        color: grey;
+        button{
+            padding-top: 2px;
+            background-color: rgb(15, 134, 170);
+            &:hover{
+                background-color: rgb(185, 185, 185);
+            }
+        }
+    }
+    .form-res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(24, 30, 34);
+        margin: 5px;
+        padding: 5px;
+        div{
+            padding-top: 2px;
+        }
+        strong{
+            color: rgb(134, 0, 0);
+        }
+    }
+}
